@@ -8,13 +8,13 @@
 
 ## Install the package 📥
 ```sh
-npm install @jeve/lyrics-finder
+npm install https://github.com/VirusLauncher/discord-lyrics-finder
 ```
 
 ## Usage 📚
 
 ```js
-const lyricsFinder = require("@jeve/lyrics-finder");
+const lyricsFinder = require("discord-lyrics-finder");
 
 lyricsFinder.LyricsFinder("sacrifice - the weeknd").then((data) => {
   console.log(data);
